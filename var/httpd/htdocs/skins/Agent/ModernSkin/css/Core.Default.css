@@ -1,6 +1,6 @@
 /*
  * Copyright (C) 2019–present Efflux GmbH, https://efflux.de/
- * Part of the ModernSkin package.
+ * Part of the ModernSkinDark package.
  *
  * This software comes with ABSOLUTELY NO WARRANTY. For details, see
  * the enclosed file COPYING for license information (GPL). If you
@@ -25,9 +25,9 @@
 
     --color-border-active: #999999;
 
-    --color-icon-default: #19475b;  /* Icon color and active buttons (pre selected on load) */
+    --color-icon-default: #1d5972;  /* Icon color and active buttons (pre selected on load) */
     --color-icon-light: #028b8b;
-    --color-icon-light-hover: #35a2a2;
+    --color-icon-light-hover: #999999;
 
     --color-theme: #2e2e2e;
     --white: #ffffff;
@@ -283,10 +283,10 @@ body.Visible-ScreenXL #ToolBar li.UserAvatar div a:hover {
 }
 
 @keyframes border-fill {
-    0%		{ border-bottom: 2px solid var(--color-icon-light); }
-    25%		{ border-bottom: 2px solid var(--color-icon-light); border-left: 2px solid var(--color-icon-light); }
-    50%		{ border-bottom: 2px solid var(--color-icon-light); border-left: 2px solid var(--color-icon-light); border-top: 2px solid var(--color-icon-light); }
-    100%	{ border-bottom: 2px solid var(--color-icon-light); border-left: 2px solid var(--color-icon-light); border-top: 2px solid var(--color-icon-light); border-right: 2px solid var(--color-icon-light); }
+    0%		{ border-bottom: 2px solid var(--color-bg-hover); }
+    25%		{ border-bottom: 2px solid var(--color-bg-hover); border-left: 2px solid var(--color-bg-hover); }
+    50%		{ border-bottom: 2px solid var(--color-bg-hover); border-left: 2px solid var(--color-bg-hover); border-top: 2px solid var(--color-bg-hover); }
+    100%	{ border-bottom: 2px solid var(--color-bg-hover); border-left: 2px solid var(--color-bg-hover); border-top: 2px solid var(--color-bg-hover); border-right: 2px solid var(--color-bg-hover); }
 }
 
 /* Navigation bar */
@@ -1944,6 +1944,10 @@ ul#ProcessElements li.AccordionElement h2 {
     border: 1px solid var(--color-bg-field);
 }
 
+.ui-datepicker {
+    background: var(--color-bg-field) !important;
+}
+
 .ui-datepicker td {
     padding: 4px 6px !important;
 }
@@ -1957,7 +1961,7 @@ ul#ProcessElements li.AccordionElement h2 {
 }
 
 .ui-datepicker .ui-datepicker-header {
-    background: transparent !important;
+    background: var(--color-bg-hover) !important;
 }
 
 .ui-datepicker th {
