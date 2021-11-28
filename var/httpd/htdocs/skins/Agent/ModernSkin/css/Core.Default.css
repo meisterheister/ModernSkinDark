@@ -102,20 +102,12 @@ h2, h3, h4 {
     color: #ff505e !important;
 }
 
-.MessageBox {
-    background: var(--color-bg-message);
-}
-
-.MessageBox p, .MessageBox a {
-    color: var(--color-txt-main);
-}
-
 .MessageBox.Error {
     background: var(--color-bg-warning);
 }
 
 .MessageBox.Error p, .MessageBox.Error a, .MessageBox.Confirmation p, .MessageBox.Confirmation a {
-    color: var(--color-theme);
+    color: var(--color-txt-main);
 }
 
 i.fa, .CallForAction span i.fa-download, .CallForAction span i.fa-upload, div.InputField_ToolbarContainer i {
@@ -958,13 +950,8 @@ ul.Tablelike li.Header + li {
     border-color: transparent var(--color-bg-field) transparent transparent !important;
 }
 
-.cke_top {
-    background: var(--color-theme) !important;
-}
-
 .cke_top, .cke_bottom {
     border: none !important;
-    background: var(--color-theme) !important;
 }
 
 .cke_toolbox .cke_toolbar_last:last-child {
@@ -1146,7 +1133,6 @@ textarea, select[multiple=multiple], form #cke_RichText, div.DnDUpload, .Actions
     border: 1px solid var(--color-bg-field) !important;
     border-top-color: var(--color-bg-field) !important;
     box-shadow: none;
-    background-color: var(--color-theme) !important;
     border-radius: var(--border-radius) !important;
 }
 
