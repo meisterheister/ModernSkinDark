@@ -26,8 +26,8 @@
     --color-border-active: #999999;
 
     --color-icon-default: #1d5972;  /* Icon color and active buttons (pre selected on load) */
-    --color-icon-light: #028b8b;
-    --color-icon-light-hover: #999999;
+    --color-icon-light: #1d5972;
+    --color-icon-light-hover: #028b8b;
 
     --color-theme: #2e2e2e;
     --white: #ffffff;
