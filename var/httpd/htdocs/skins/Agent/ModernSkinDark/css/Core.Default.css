@@ -1134,6 +1134,7 @@ textarea, select[multiple=multiple], form #cke_RichText, div.DnDUpload, .Actions
     border-top-color: var(--color-bg-field) !important;
     box-shadow: none;
     border-radius: var(--border-radius) !important;
+    background-color: var(--color-theme) !important;
 }
 
 input.FilterAvailableFields, input.InputField_Search {
