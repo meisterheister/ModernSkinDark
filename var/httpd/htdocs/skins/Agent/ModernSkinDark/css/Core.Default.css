@@ -275,10 +275,10 @@ body.Visible-ScreenXL #ToolBar li.UserAvatar div a:hover {
 }
 
 @keyframes border-fill {
-    0%		{ border-bottom: 2px solid var(--color-bg-hover); }
-    25%		{ border-bottom: 2px solid var(--color-bg-hover); border-left: 2px solid var(--color-bg-hover); }
-    50%		{ border-bottom: 2px solid var(--color-bg-hover); border-left: 2px solid var(--color-bg-hover); border-top: 2px solid var(--color-bg-hover); }
-    100%	{ border-bottom: 2px solid var(--color-bg-hover); border-left: 2px solid var(--color-bg-hover); border-top: 2px solid var(--color-bg-hover); border-right: 2px solid var(--color-bg-hover); }
+    0%		{ border-bottom: 2px solid var(--color-icon-light-hover); }
+    25%		{ border-bottom: 2px solid var(--color-icon-light-hover); border-left: 2px solid var(--color-icon-light-hover); }
+    50%		{ border-bottom: 2px solid var(--color-icon-light-hover); border-left: 2px solid var(--color-icon-light-hover); border-top: 2px solid var(--color-icon-light-hover); }
+    100%	{ border-bottom: 2px solid var(--color-icon-light-hover); border-left: 2px solid var(--color-icon-light-hover); border-top: 2px solid var(--color-icon-light-hover); border-right: 2px solid var(--color-icon-light-hover); }
 }
 
 /* Navigation bar */
