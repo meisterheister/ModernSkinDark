@@ -19,7 +19,7 @@
         <Value>
             <Hash>
                 <Item Key="InternalName">ModernSkinDark</Item>
-                <Item Key="VisibleName" Translatable="1">Modern Skin by Efflux</Item>
+                <Item Key="VisibleName" Translatable="1">Modern Dark Skin</Item>
                 <Item Key="Description" Translatable="1">A modern and flat skin by Efflux GmbH. Dark version by meisterheister (https://github.com/meisterheister).</Item>
                 <Item Key="HomePage">https://efflux.de</Item>
             </Hash>
