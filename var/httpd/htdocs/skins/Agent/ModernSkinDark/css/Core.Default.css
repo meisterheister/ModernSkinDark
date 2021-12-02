@@ -1460,16 +1460,16 @@ body.Visible-ScreenXL #ToolBar li.UserAvatar div a:last-child:hover, #Navigation
 
 /* System */
 .UseArticleColors tr.system > td {
-    background: #fff7be !important;
-    border-bottom-color: #ffef80;
-    border-color: #ffef80;
+    background: #edb51896 !important;
+    border-bottom-color: #edb518bf;
+    border-color: #edb518bf;
 }
 
 /* System Active */
 .UseArticleColors tr.system.Active > td,
 .UseArticleColors tr.system:hover > td {
-    background-color: #ffef80 !important;
-    border-color: #ffef80;
+    background-color: #edb518bf !important;
+    border-color: #edb518bf;
 }
 
 .OverviewBox > h1 {
