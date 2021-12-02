@@ -962,7 +962,7 @@ ul.Tablelike li.Header + li {
 .cke_combo_on a.cke_combo_button, .cke_combo_off a.cke_combo_button:hover,
 .cke_combo_off a.cke_combo_button:focus,.cke_combo_off a.cke_combo_button:active,
 a.cke_button_off:hover, a.cke_button_off:focus, a.cke_button_off:active {
-    background: var(--color-bg-message) !important;
+    background: var(--color-border-active) !important;
     border: 1px solid var(--color-theme) !important;
     border-radius: var(--border-radius) !important;
 }
@@ -976,7 +976,7 @@ a.cke_button_off:hover, a.cke_button_off:focus, a.cke_button_off:active {
 }
 
 .cke_toolgroup .cke_button_on {
-    background-color: var(--color-bg-message-selected) !important;
+    background-color: var(--color-border-active) !important;
     border-radius: var(--border-radius) !important;
 }
 
