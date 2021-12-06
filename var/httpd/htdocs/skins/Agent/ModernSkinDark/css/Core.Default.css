@@ -1956,6 +1956,7 @@ ul#ProcessElements li.AccordionElement h2 {
 }
 
 .ui-widget-content {
+	color: var(--white);
     background: var(--color-theme) !important;
 }
 
